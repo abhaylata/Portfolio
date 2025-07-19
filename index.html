@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Latta - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Dropdown Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h2>Abhay Latta</h2>
+                    <span class="logo-subtitle">Full Stack Developer</span>
+                </div>
+                
+                <nav class="nav-desktop">
+                    <div class="dropdown">
+                        <button class="dropdown-btn">
+                            <i class="fas fa-bars"></i>
+                            Menu
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#about" class="nav-link">About</a>
+                            <a href="#projects" class="nav-link">Projects</a>
+                            <a href="#skills" class="nav-link">Skills</a>
+                            <a href="#contact" class="nav-link">Contact Me</a>
+                        </div>
+                    </div>
+                </nav>
+
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu">
+            <button class="mobile-menu-close" aria-label="Close mobile menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <nav class="mobile-nav">
+                <a href="#about" class="mobile-nav-link">About</a>
+                <a href="#projects" class="mobile-nav-link">Projects</a>
+                <a href="#skills" class="mobile-nav-link">Skills</a>
+                <a href="#contact" class="mobile-nav-link">Contact Me</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <a href="#home" class="sidebar-link active" title="Home">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="#about" class="sidebar-link" title="About">
+                <i class="fas fa-user"></i>
+                <span>About</span>
+            </a>
+            <a href="#projects" class="sidebar-link" title="Projects">
+                <i class="fas fa-folder"></i>
+                <span>Projects</span>
+            </a>
+            <a href="#skills" class="sidebar-link" title="Skills">
+                <i class="fas fa-code"></i>
+                <span>Skills</span>
+            </a>
+            <a href="#contact" class="sidebar-link" title="Contact">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+            </a>
+        </nav>
+        
+        <div class="sidebar-social">
+            <a href="https://linkedin.com/in/abhaylata" target="_blank" class="social-link" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/abhaylata" target="_blank" class="social-link" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Hello, I'm Abhay Latta</h1>
+                <p class="hero-subtitle">Full Stack Developer & Robotics Enthusiast</p>
+                
+                <p class="hero-description">
+                    Electronics and Communication Engineering student at BK Birla Institute of Engineering and Technology 
+                    with expertise in full-stack development, robotics, and IoT systems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn--outline">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                <img src="profile.jpg" alt="Profile" class="profile-picture" />
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-description">
+                            I'm a passionate Electronics and Communication Engineering student at BK Birla Institute of Engineering and Technology, 
+                            currently in my final year. My journey in technology spans across full-stack development, robotics, and IoT systems.
+                        </p>
+                        <p class="about-description">
+                            I have hands-on experience building innovative solutions ranging from healthcare automation robots to environmental 
+                            monitoring systems. My technical expertise includes modern web technologies, robotics frameworks, and embedded systems.
+                        </p>
+                        
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Pilani, Rajasthan, India</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>lataabhay15@gmail.com</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 6378058789</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Electronics and Communication Engineering</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-experience">
+                        <h3>Experience</h3>
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h4>Robotics Intern</h4>
+                                <span class="experience-duration">Recent</span>
+                            </div>
+                            <p class="experience-company">Open Droids</p>
+                            <p class="experience-description">
+                                Gained experience in robotic simulation, motion planning, and efficient communication protocols using ROS2 and simulation tools.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Home Air Quality Monitoring System</h3>
+                            <p class="project-description">
+                                Built with ESP32 microcontroller and advanced environmental sensors for real-time air quality monitoring with cloud-based data storage.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">ESP32</span>
+                                <span class="tech-tag">IoT</span>
+                                <span class="tech-tag">Sensors</span>
+                                <span class="tech-tag">Cloud Storage</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Pulse Panda - Reception Robot</h3>
+                            <p class="project-description">
+                                Healthcare automation robot designed for hospital reception with patient interaction capabilities and automated workflows.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Robotics</span>
+                                <span class="tech-tag">C++</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Healthcare Tech</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Ahilya - Patient Care Robot</h3>
+                            <p class="project-description">
+                                Advanced nursing robot for patient care with motion planning, system integration, and automated care protocols.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">ROS2</span>
+                                <span class="tech-tag">MoveIt</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Healthcare</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Programming Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Frameworks & Libraries</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express</span>
+                            <span class="skill-tag">Bootstrap</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Tools & Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MATLAB</span>
+                            <span class="skill-tag">KiCad</span>
+                            <span class="skill-tag">ROS2</span>
+                            <span class="skill-tag">MoveIt</span>
+                            <span class="skill-tag">Gazebo</span>
+                            <span class="skill-tag">Rviz2</span>
+                            <span class="skill-tag">PlatformIO</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Specializations</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">IoT Systems</span>
+                            <span class="skill-tag">Robotics</span>
+                            <span class="skill-tag">Sensor Integration</span>
+                            <span class="skill-tag">Real-time Monitoring</span>
+                            <span class="skill-tag">Circuit Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>
+                            I'm always open to discussing new opportunities, innovative projects, or just having a conversation about technology.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>lataabhay15@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 6378058789</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Pilani, Rajasthan, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading hidden">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Sending...
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Abhay Latta. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/abhaylata" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/abhaylata" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Message Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-check-circle"></i> Message Sent Successfully!</h3>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for your message! I'll get back to you as soon as possible.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
